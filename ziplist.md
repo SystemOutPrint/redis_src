@@ -11,7 +11,7 @@ zlend代表数组的末端0xEF<br/>
 
 ## 0x02 entry定义
 
-![github-04.png](/images/ziplist_02.png "github-04.png")
+![github-04.png](/images/ziplist_02.png "github-04.png")<br/>
 previous_entry_content：前一个entry的长度<br/>
 encoding：当前entry的编码<br/>
 content：内容<br/>
