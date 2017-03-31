@@ -3,7 +3,7 @@
 ## 0x01 定义
 
 ziplist就是一个数组。<br/>
-![github-03.png](/images/ziplist_01.png "github-03.png")
+![github-03.png](/images/ziplist_01.png "github-03.png")<br/>
 zlbytes代表数组总长度<br/>
 zltail代表尾节点距离ziplist数组的起始地址有多少字节<br/>
 zllen代表数组内的节点数量<br/>
