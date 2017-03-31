@@ -33,5 +33,5 @@ AOF：在键过期后，在惰性删除或者定期删除的时候在aof文件后追加一条删除该键的日志，
 复制：从服务器并不会对过期键做任何操作，只是等待主服务器同步数据过来。
 
 ## 0x06 数据库通知
-订阅频道：subscribe __keyspace@0__:xxx<br/>
-订阅事件：subscribe __keyevent@0__:xxx<br/>
+订阅频道：subscribe \_\_keyspace@0\_\_:xxx<br/>
+订阅事件：subscribe \_\_keyevent@0\_\_:xxx<br/>
